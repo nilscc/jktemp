@@ -1,0 +1,47 @@
+body
+{
+  text-align: center;
+}
+
+#api-key
+{
+}
+
+#api-key h2
+{
+  color: lightgray;
+}
+
+#api-key input
+{
+  margin: 2em auto 2em;
+  border: 1px solid lightgray;
+  text-align: center;
+  width: 100ch;
+}
+
+#api-key button
+{
+  display: block;
+  margin: 1em auto;
+  padding: 0.5em 3em;
+  background-color: white;
+
+  border: 1px solid lightgray;
+
+  color: gray;
+
+  cursor: pointer;
+}
+#api-key button:hover
+{
+  color: black;
+  border: 1px solid gray;
+}
+
+#api-key p
+{
+  margin-top: 3em;
+  font-family: monospace;
+  color: red;
+}
